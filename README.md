@@ -4,7 +4,7 @@ This installer creates a new [Vapor](https://github.com/tannernelson/vapor) web 
 
 ###Instructions
 
-1. Simply [download](vapor) the binary and add it to your `$PATH`
+1. Simply [download](raw/master/vapor) the binary and add it to your `$PATH`
 2. Create a new project `vapor new MyProject`
 3. Start building a swift web application!
 
