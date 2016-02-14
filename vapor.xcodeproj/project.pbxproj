@@ -36,6 +36,7 @@
 		34402D7C1C6FF4130019F94C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34402D811C6FF55B0019F94C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34402D831C6FF5E40019F94C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		34402D841C7052DC0019F94C /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		34402D5D1C6FF38D0019F94C = {
 			isa = PBXGroup;
 			children = (
+				34402D841C7052DC0019F94C /* Dockerfile */,
 				34402D831C6FF5E40019F94C /* LICENSE */,
 				34402D811C6FF55B0019F94C /* README.md */,
 				34402D681C6FF38D0019F94C /* Sources */,
