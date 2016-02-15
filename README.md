@@ -19,9 +19,9 @@ You can learn how from this series [How to Contribute to an Open Source Project 
 
 ###Todos
 
-- [] Specific a tag or release
-- [] Self-update
-- [] Tests
+- [ ] Specific a tag or release
+- [ ] Self-update
+- [ ] Tests
 
 ###Author
 
