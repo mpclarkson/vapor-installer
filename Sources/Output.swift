@@ -19,7 +19,7 @@ struct Output {
         case .Info: print("\u{001B}[0;34m\(string)\u{001B}[0m")
         case .Success: print("\u{001B}[0;32m\(string)\u{001B}[0m")
         case .Warning: print("\u{001B}[0;33m\(string)\u{001B}[0m")
-        case .Error: print("\u{001B}[0;31m\(string)\u{001B}[0m")
+        case .Error: print("\u{001B}[0;31mError: \(string)\u{001B}[0m")
         }
     }
     
