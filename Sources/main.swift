@@ -16,19 +16,19 @@ do {
     let result = command.run()
     
     switch result {
-    case .Success: output.success("Project created successfully!")
-    case .Error: output.error(result.message!)
+    case .Success: output.alert(.Success("Project created successfully!"))
+    case .Error: output.alert(.Error(result.message!))
     }
 
 }
 catch {
 
+    var message = "Something went wrong."
     if let error = error as? CommandError {
-       output.error(error.message)
+       message = error.message
     }
-    else {
-       output.error("Something went wrong.")
-    }
+    
+    output.alert(.Error(message))
 }
 
 

@@ -85,7 +85,7 @@ extension VaporCommand {
         }
         
         //Create the project folder
-        output.info("Creating project \"\(name)\"...")
+        output.alert(.Info("Creating project \"\(name)\"..."))
         
         if !createFolder() {
             return Result.Error("The folder \"\(name)\" could not be created.")
