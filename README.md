@@ -26,6 +26,9 @@ You can learn how from this series [How to Contribute to an Open Source Project 
 ###Author
 
 Matthew Clarkson
+
 [@matt_clarkson](https://twitter.com/matt_clarkson)
+
 [Blog](https://mpclarkson.github.io)
+
 [Work](https://hilenium.com)

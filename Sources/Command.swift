@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Printr
 
 private struct Constants {
     static let defaultName = "VaporApp"
@@ -46,7 +47,7 @@ struct VaporCommand {
     private let name:String
     
     private let fileManager = NSFileManager.defaultManager()
-    private let output = Output()
+    private let output = Printr()
     
     private var path: String { return "\(fileManager.currentDirectoryPath)/\(name)" }
     private var url: NSURL { return NSURL(string: Constants.repository + ".git")! }
