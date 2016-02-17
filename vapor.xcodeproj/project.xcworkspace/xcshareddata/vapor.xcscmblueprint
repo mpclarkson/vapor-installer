@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EA8FF27E5ECB6EFAF7B3186C0CED32A06CC3F7B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA8FF27E5ECB6EFAF7B3186C0CED32A06CC3F7B7" : 0,
+    "E01C287F87C07F5FD477F3D3F85F67F478400FA6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4FE36436-ADAC-44C8-8028-3510B666BF39",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA8FF27E5ECB6EFAF7B3186C0CED32A06CC3F7B7" : "vapor-installer\/",
+    "E01C287F87C07F5FD477F3D3F85F67F478400FA6" : "vapor-installer\/Sources\/Packages\/printr-0.1.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "vapor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "vapor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mpclarkson\/printr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E01C287F87C07F5FD477F3D3F85F67F478400FA6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mpclarkson\/vapor-installer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA8FF27E5ECB6EFAF7B3186C0CED32A06CC3F7B7"
+    }
+  ]
+}

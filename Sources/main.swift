@@ -7,14 +7,15 @@
 //
 
 import Foundation
+import Printr
 
-let output = Output()
+let output = Printr()
 
 do {
-    
+
     let command = try VaporCommand()
     let result = command.run()
-    
+
     switch result {
     case .Success: output.alert(.Success("Project created successfully!"))
     case .Error: output.alert(.Error(result.message!))
@@ -27,8 +28,6 @@ catch {
     if let error = error as? CommandError {
        message = error.message
     }
-    
+
     output.alert(.Error(message))
 }
-
-
