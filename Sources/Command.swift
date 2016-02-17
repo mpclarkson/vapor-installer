@@ -13,6 +13,7 @@ private struct Constants {
     static let repositoryName = "vapor-example"
     static let defaultVersion = "master"
     static let repository = "https://github.com/tannernelson/" + Constants.repositoryName
+    static let defaultError = "https://github.com/tannernelson/" + Constants.repositoryName
 }
 
 enum Command: String {

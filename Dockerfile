@@ -26,7 +26,7 @@ ENV PATH /usr/bin:$PATH
 RUN mkdir -p /code
 WORKDIR /code
 ADD . /code
-RUN swift build
+RUN swift build --configuration release && cp .build/release/vapor /
 
 EXPOSE 8080
 

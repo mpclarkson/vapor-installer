@@ -77,7 +77,7 @@ extension Output {
     func alert(type: AlertType) {
         let formatting = formattingForAlert(type)
         
-        print(formatOutput(type.string, formats: formatting))
+        print(formatOutput(type.string, formats: formatting, withPadding: true))
     }
     
     func text(string: String, formats: Formatting? = nil, newLine: Bool = true) {
@@ -114,13 +114,14 @@ extension Output {
         return "\n\n " + string + "\n"
     }
     
-    private func formatOutput(string: String, formats: [FormatType]) -> String {
+    private func formatOutput(string: String, formats: [FormatType], withPadding: Bool = false) -> String {
         
         let codes = formats
             .map { "\($0.rawValue)" }
             .joinWithSeparator(";")
         
-        return"\u{001B}[0;\(codes)m\(string)\u{001B}[0m"
+        let text = withPadding ? stringWithPadding(string) : string
         
+        return "\u{001B}[0;\(codes)m\(text)\u{001B}[0m"
     }
 }
