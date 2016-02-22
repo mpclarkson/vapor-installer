@@ -1,6 +1,6 @@
 #Vapor Installer
 
-This installer creates a new [Vapor](https://github.com/tannernelson/vapor) web project with open source Swift.
+This installer creates a new [Vapor](https://github.com/qutheory/vapor) web project with open source Swift.
 
 ###Instructions
 
