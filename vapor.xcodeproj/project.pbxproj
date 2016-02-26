@@ -12,9 +12,6 @@
 		34402D791C6FF3980019F94C /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34402D741C6FF3980019F94C /* Shell.swift */; };
 		34402D7D1C6FF4130019F94C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34402D7C1C6FF4130019F94C /* main.swift */; };
 		34402D821C6FF55B0019F94C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34402D811C6FF55B0019F94C /* README.md */; };
-		34958EC81C7489F400BD1AA1 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34958EC11C7489F400BD1AA1 /* Package.swift */; };
-		34958EC91C7489F400BD1AA1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34958EC51C7489F400BD1AA1 /* README.md */; };
-		34958ECA1C7489F400BD1AA1 /* Printr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34958EC71C7489F400BD1AA1 /* Printr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,14 +33,7 @@
 		34402D741C6FF3980019F94C /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		34402D7C1C6FF4130019F94C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34402D811C6FF55B0019F94C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		34402D831C6FF5E40019F94C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		34402D841C7052DC0019F94C /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
-		34958EBF1C7489F400BD1AA1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		34958EC01C7489F400BD1AA1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		34958EC11C7489F400BD1AA1 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		34958EC21C7489F400BD1AA1 /* Printr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Printr.xcodeproj; sourceTree = "<group>"; };
-		34958EC51C7489F400BD1AA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		34958EC71C7489F400BD1AA1 /* Printr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +50,7 @@
 		34402D5D1C6FF38D0019F94C = {
 			isa = PBXGroup;
 			children = (
-				34958EBD1C7489F400BD1AA1 /* Packages */,
 				34402D841C7052DC0019F94C /* Dockerfile */,
-				34402D831C6FF5E40019F94C /* LICENSE */,
 				34402D811C6FF55B0019F94C /* README.md */,
 				34402D681C6FF38D0019F94C /* Sources */,
 				34402D671C6FF38D0019F94C /* Products */,
@@ -84,42 +72,6 @@
 				34402D711C6FF3980019F94C /* Command.swift */,
 				34402D731C6FF3980019F94C /* Git.swift */,
 				34402D741C6FF3980019F94C /* Shell.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		34958EBD1C7489F400BD1AA1 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				34958EBE1C7489F400BD1AA1 /* printr-0.1.0 */,
-			);
-			path = Packages;
-			sourceTree = "<group>";
-		};
-		34958EBE1C7489F400BD1AA1 /* printr-0.1.0 */ = {
-			isa = PBXGroup;
-			children = (
-				34958EBF1C7489F400BD1AA1 /* .gitignore */,
-				34958EC01C7489F400BD1AA1 /* LICENSE */,
-				34958EC11C7489F400BD1AA1 /* Package.swift */,
-				34958EC21C7489F400BD1AA1 /* Printr.xcodeproj */,
-				34958EC51C7489F400BD1AA1 /* README.md */,
-				34958EC61C7489F400BD1AA1 /* Sources */,
-			);
-			path = "printr-0.1.0";
-			sourceTree = "<group>";
-		};
-		34958EC31C7489F400BD1AA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34958EC61C7489F400BD1AA1 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				34958EC71C7489F400BD1AA1 /* Printr.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -169,12 +121,6 @@
 			mainGroup = 34402D5D1C6FF38D0019F94C;
 			productRefGroup = 34402D671C6FF38D0019F94C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 34958EC31C7489F400BD1AA1 /* Products */;
-					ProjectRef = 34958EC21C7489F400BD1AA1 /* Printr.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				34402D651C6FF38D0019F94C /* vapor */,
@@ -187,13 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34958EC81C7489F400BD1AA1 /* Package.swift in Sources */,
 				34402D821C6FF55B0019F94C /* README.md in Sources */,
 				34402D791C6FF3980019F94C /* Shell.swift in Sources */,
-				34958EC91C7489F400BD1AA1 /* README.md in Sources */,
 				34402D7D1C6FF4130019F94C /* main.swift in Sources */,
 				34402D761C6FF3980019F94C /* Command.swift in Sources */,
-				34958ECA1C7489F400BD1AA1 /* Printr.swift in Sources */,
 				34402D781C6FF3980019F94C /* Git.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
