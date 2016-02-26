@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Downloading dependencies..."
+swift build &>/dev/null
+echo "Fixing SPM bug..."
+rm -rf Packages/Vapor-*/Tests/ &>/dev/null
+echo "Building..."
+swift build
+echo "Done"
